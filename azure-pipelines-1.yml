@@ -9,7 +9,7 @@ trigger:
 pool: default
 
 steps:
-- task: CopyFiles@2
+- task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
